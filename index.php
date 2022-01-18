@@ -62,10 +62,10 @@ if(isset($_POST['name'])){
         <ul>
             <li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#services-container">Gallery</a></li>
-            <li class="item"><a href="#client-section">About us</a></li>
+            <li class="item"><a href="OAG_About_Us.html" target="_blank">About Us</a></li>
             <li class="item"><a href="#contact">Contact Us</a></li>
             <li class="item"><a href="#cart">Cart</a></li>
-            <li class="item"><a href="#signup">Sign up</a></li>
+            <li class="item"><a href="OAG_Login.html">Register</a></li>
             <li class="item"><a href="#login">Log in</a></li>
             
         </ul>
@@ -158,29 +158,7 @@ if(isset($_POST['name'])){
             <br>
         </div>
     </section>
-    <section id="about-section">
-        
-        <h1 class="h-primary center">  About us</h1>
-      
-        
-      <p class="center">● An Online Art Gallery is a buying/selling platform.</p>
-          <p class="center">● It provide artists a medium to showcase their talent and to earn by
-            selling their art work.</p>
-        <p class="center">● Customers using this platform can explore various art forms and
-            can easily buy it.</p>
-        <p class="center">● This platform will save time of artists as well as of customers by
-            eliminating the need to visit shops/markets.</p>
-        <p class="center">● A brief description is given with each artwork to let the customers
-            have a complete idea about the art work they are purchasing.</p>
-        <p class="center">● It also manages the information of Artists, Customers and
-            Payments.</p>
-        <p class="center">● It is a way through which different art forms can be introduced to
-            the people.</p>
-          
-
-    </section>
-
-
+    
     <section id="contact">
         <h1 class="h-primary center">Contact Us</h1>
         <div id="contact-box">
@@ -216,6 +194,3 @@ if(isset($_POST['name'])){
 </body>
 
 </html>
-
-
-
